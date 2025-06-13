@@ -1,0 +1,17 @@
+
+    {
+      "manifest_version": 3,
+      "name": "Broken links",
+      "version": "1.2",
+      "description": "Detecta favicon y enlaces rotos de la página actual",
+    "icons": {
+      "16": "ChatGPT Image 12 jun 2025, 11_09_41.png",
+      "48": "ChatGPT Image 12 jun 2025, 11_09_41.png",
+      "128": "ChatGPT Image 12 jun 2025, 11_09_41.png"
+    },
+      "permissions": ["activeTab", "scripting"],
+      "action": {
+        "default_popup": "popup.html"
+      }
+    }
+    

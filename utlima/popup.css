@@ -1,0 +1,123 @@
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+      width: 330px;
+    }
+
+    .container {
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .section {
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      margin: 0 0 5px 0;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .result {
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background: #eaeaea;
+    }
+
+    .result.ok {
+      background: #d4edda;
+      color: #155724;
+    }
+
+    .result.fail {
+      background: #f8d7da;
+      color: #721c24;
+    }
+
+    .summary {
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+    }
+
+    .summary.ok {
+      background: #d4edda;
+      color: #155724;
+    }
+
+    .summary.fail {
+      background: #f8d7da;
+      color: #721c24;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #invalidList {
+      max-height: 100px;
+      overflow-y: auto;
+      font-size: 12px;
+      padding-left: 10px;
+    }
+
+    #invalidList a {
+      display: block;
+      margin-bottom: 4px;
+      word-break: break-all;
+      color: #721c24;
+      transition: color 0.3s ease;
+    }
+
+    #invalidList a:hover {
+      color: #0056b3;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      font-weight: bold;
+      color: white;
+      background: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    #toggleInvalid {
+      background: transparent;
+      border: none;
+      color: #721c24;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 0 5px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    label {
+      font-size: 13px;
+    }
+
+    #scanButton:active {
+      background-color: #0056b3;
+    }
+    
